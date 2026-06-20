@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: "https://bantony-pdf-converter-by-ai.vercel.app",
+        origin: "https://pdf-converter-by-bantony.vercel.app",
         credentials: true
     })
 );
